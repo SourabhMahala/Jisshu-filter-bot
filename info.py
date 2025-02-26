@@ -144,7 +144,7 @@ admin_cmds = [
     "/delreq", "/channel", "/del_file", "/delete",
     "/deletefiles", "/deleteall", 
     "All These Commands Can Be Used Only By Admins.", 
-    "⚡ powered by @JISSHU_BOTS"
+    "⚡ powered by @Alphaz_Officials"
 ]
 
 cmds = [
