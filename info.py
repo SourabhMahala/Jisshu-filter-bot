@@ -35,24 +35,24 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002269853237'))  # set s
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002472081902')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002438777709'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002296818264')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002427855589'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002403016515'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002442539516') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002442539516')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/M0VIES_REQUEST_Group') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', False)
+IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Links_Tutorialz/20")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Links_Tutorialz/20")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Links_Tutorialz/20")
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/8d24e4243e63705874a8c-1adddc1146b446b99c.jpg")
+SHORTENER_API = environ.get("SHORTENER_API", "f63c50596b2e9ca832c6ad388de8c0339abde6ad")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'arlinks.in')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "f63c50596b2e9ca832c6ad388de8c0339abde6ad")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'arlinks.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "f63c50596b2e9ca832c6ad388de8c0339abde6ad")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'arlinks.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -69,10 +69,10 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://graph.org/file/60ab16680b938bb1ad963-62e20a48c8da2a88b1.jpg https://graph.org/file/f0d00a8117b06818834cd-3f1515c0a9de4fb830.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
+PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/8eb1aabee951f9cf7a286-97b55adb6be9810ba6.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
